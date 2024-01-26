@@ -1,4 +1,3 @@
-// worker.js
 onmessage = function(e) {
     const duration = e.data.duration;
     const endTime = Date.now() + duration;
