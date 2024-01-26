@@ -1,4 +1,3 @@
-// script.js
 function startWorker(duration) {
     return new Promise(resolve => {
         const worker = new Worker('worker.js');
